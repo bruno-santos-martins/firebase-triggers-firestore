@@ -2,6 +2,9 @@
 
 Este projeto é um teste de integração com o Firebase Firestore, focando na criação de registros e no incremento automático de IDs. Ele utiliza triggers do Firestore para automatizar a criação de documentos e garantir que os nomes sejam únicos.
 
+# Obs: 
+   Entrar dentro da pasta functions para executar as instruçoes abaixo.
+
 ## Tecnologias Utilizadas
 
 - **Firebase Functions**: Para lidar com eventos do Firestore.
@@ -40,7 +43,7 @@ firebase emulators:start
 2. **Executar os testes**:
 
 ```bash
-npx ts-node src/tests/tests.ts
+npx ts-node src/tests/tests.ts ou  npm run test
 ```
 
 ## Como Usar
